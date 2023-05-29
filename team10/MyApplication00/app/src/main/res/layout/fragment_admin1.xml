@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ByAdmin.Admin1">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#95B3CA"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="#005679" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginBottom="10dp"
+            android:background="#005679" />
+
+        <Button
+            android:id="@+id/addUser"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="#0A6B93"
+            android:drawableRight="@drawable/addpersonw_foreground"
+            android:text="@string/addUser"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/removeUser"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:backgroundTint="#0C719D"
+            android:drawableRight="@drawable/removeperson_foreground"
+            android:text="@string/deleteUser"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/editUser"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:backgroundTint="#0074A0"
+            android:drawableRight="@drawable/edit_foreground"
+            android:text="@string/editUser"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="#005679" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:background="#005476" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#005679" />
+
+    </LinearLayout>
+</FrameLayout>

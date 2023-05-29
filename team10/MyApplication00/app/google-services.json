@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "341824018281",
+    "project_id": "maccabidb",
+    "storage_bucket": "maccabidb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341824018281:android:ecf0cb5d6905cf4e38cff8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication00"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341824018281-apennpp9uvae92dkhers1f4lq1eddhhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication00",
+            "certificate_hash": "9962d3e9afc1af3a43cf9a26a15a14d71e9d72e1"
+          }
+        },
+        {
+          "client_id": "341824018281-jqgdic1mkoj4bccob7dv7ghohiajb35i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVlqHOb79GyWyKB9Pnwa6fxLjCscuqc2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341824018281-jqgdic1mkoj4bccob7dv7ghohiajb35i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

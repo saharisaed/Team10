@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ByElderly.ElderlyHealthService">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#97BD49"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColorHint="#FFFFFF"
+            app:boxStrokeColor="#FFFFFF"
+            app:counterEnabled="true"
+            app:counterMaxLength="9">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idSearchServices"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/enterServiceName"
+                android:inputType="number"
+                android:shadowColor="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/searchHealth"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="#8DBE2E"
+            android:contentDescription="@string/enterServiceName"
+            android:src="@android:drawable/ic_menu_search" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/cardListhealth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

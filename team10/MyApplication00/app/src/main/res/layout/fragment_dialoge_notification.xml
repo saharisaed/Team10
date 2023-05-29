@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialoge_notification">
+
+
+    <TextView
+        android:id="@+id/messagenoti"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/notiOn"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch22"
+        android:layout_width="118dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center" />
+
+</LinearLayout>

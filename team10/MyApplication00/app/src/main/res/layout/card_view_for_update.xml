@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view_for_update"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:layout_margin="5dp"
+    android:layout_marginTop="10dp"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="30dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#3F51B5"
+            android:gravity="center_vertical"
+            android:text="@string/userDetail"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="75dp"
+            android:gravity="center_vertical"
+            android:text="SurName :"
+            android:textColor="#3A52BC"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <TextView
+            android:id="@+id/txtSurname3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_vertical"
+            android:text="Name :"
+            android:textColor="#3A52BC"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#3A52BC"
+            android:gravity="center"
+            android:shadowColor="#101010"
+            android:text="Update user data"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="88dp" />
+
+        <Button
+            android:id="@+id/updatebtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#3A52BC"
+            android:gravity="center"
+            android:shadowColor="#101010"
+            android:text="Update extra data"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="88dp" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/txtName"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:text=" ID :"
+            android:textColor="#3A52BC"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
+            android:text="User Type :"
+            android:textColor="#3A52BC"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idget1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nameget1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lastNameget1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="75dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/userTypeget1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="100dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

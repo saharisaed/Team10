@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication00.MainActivity">
+
+    <item
+        android:id="@+id/changePassword"
+        android:title="change password"
+        app:showAsAction="always" />
+
+</menu>

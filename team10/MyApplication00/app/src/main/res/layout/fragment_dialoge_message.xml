@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/okMessage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C19797"
+    android:orientation="vertical"
+    tools:context=".ByElderly.dialogeMessage">
+
+    <TextView
+        android:id="@+id/messageok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/messageOrder"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/okM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/ok"
+        android:textStyle="bold" />
+</LinearLayout>

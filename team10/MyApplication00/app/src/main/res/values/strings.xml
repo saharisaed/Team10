@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">My Application00</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label"></string>
+    <string name="second_fragment_label"></string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="enter">כניסה</string>
+    <string name="logo">logo</string>
+    <string name="save">save</string>
+
+    <string name="hello_second_fragment"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Id">ת.ז</string>
+    <string name="code">סיסמה</string>
+    <string name="textInLogIn">כניסה עם סיסמה</string>
+    <string name="addUser">הוספת משתמש</string>
+    <string name="deleteUser">מחיקת משתמש</string>
+    <string name="editUser">עדכון משתמש</string>
+    <string name="editUsercare">עדכון משתמש(Caretaker)</string>
+    <string name="email">אימייל</string>
+
+
+    <string-array name="userType">
+        <item>caretaker</item>
+        <item>elderly Person</item>
+        <item>manager</item>
+        <item>admin</item>
+    </string-array>
+
+
+    <string-array name="userType1">
+        <item>caretaker</item>
+        <item>elderly Person</item>
+        <item>manager</item>
+    </string-array>
+
+    <string name="health_services">שירותי בריאות</string>
+    <string name="monitoring">ניטור תרופות</string>
+    <string name="orderMedication">הזמנת תרופות</string>
+
+    <string name="fname">שם</string>
+    <string name="lname">שם משפחה</string>
+    <string name="ID">תעודת זהות</string>
+
+
+    <string name="dialog_message">delete?</string>
+    <string name="dialog_title">Confirm</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+
+
+    <string name="userDetail">User Details</string>
+    <string name="Delete">Delete</string>
+    <string name="caretakersDetails">Caretakers Details</string>
+    <string name="setHolidays">Set Holidays</string>
+    <string name="setPayment">Set Payment</string>
+    <string name="holidays">Holidays</string>
+    <string name="Payment1">Payment per month</string>
+    <string name="curmonth">current month:</string>
+    <string name="curpay">current payment:</string>
+
+
+    <string name="IDinmanager">ID :</string>
+    <string name="Name">Name :</string>
+    <string name="surname">SurName :</string>
+    <string name="type">User Type :</string>
+
+    <string name="phone">מספר טלפון</string>
+
+
+    <string name="Check">Check</string>
+    <string name="Call">Call</string>
+
+    <string name="forSearch">לחיפוש יש להזין מםפר ת״ז</string>
+
+    //EditExtradata2
+    <string name="editUserelde">עדכון משתמש(Elderly)</string>
+    <string name="birthdayE">birthday</string>
+    <string name="ageE">age</string>
+    <string name="assistPhoneE">assist phone number</string>
+    <string name="addressE">address</string>
+    <string name="addMedecian">Add Medicine</string>
+
+    //add midicine
+    <string name="midicineName">Name:</string>
+    <string name="totalAmount">Total amount"</string>
+    <string name="athour">At hour:</string>
+    <string name="takeItEvery">Take It Every:</string>
+    <string name="cancelM">Cancel</string>
+    <string name="OkM">Add</string>
+
+    // setHolidays
+    <string name="setFour">Set 4 Holidays</string>
+    <string name="seforThis">Set the payment for current month</string>
+
+    //ElderlyActivities
+    <string name="enterServiceName">יש להזין שם שירות בריאות הרצויה</string>
+
+    //Monitoring
+    <string name="currentAmount">Current amount</string>
+    <string name="hour">Must take it at hour</string>
+    <string name="tokeIt">I took it</string>
+
+    //Ordering
+    <string name="messageOrder">Your request for order this medicine was send</string>
+
+    //Turn the notification on
+    <string name="notiOn">Turn the notification on</string>
+    <string name="notiOff">Turn the notification off</string>
+
+    //show caretaker details
+    <string name="details">פרטים</string>
+    <string name="sendInD">לשלוח תלונה</string>
+    <string name="complainTi">Your complain well send to tha manager hani@gmail.com </string>
+
+    //change the password
+    <string name="emailEnter">Enter your email</string>
+    <string name="passnew">Enter your curreny password</string>
+    <string name="passwordfEnter">Enter your new password</string>
+    <string name="changePass">Change password</string>
+
+</resources>

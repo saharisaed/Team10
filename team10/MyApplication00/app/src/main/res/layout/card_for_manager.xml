@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_for_manager"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:layout_margin="5dp"
+    android:layout_marginTop="15dp"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="30dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/nameOfMed"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#166134"
+            android:gravity="center_vertical"
+            android:text="@string/caretakersDetails"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="75dp"
+            android:gravity="center_vertical"
+            android:text="@string/surname"
+            android:textColor="#166134"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <TextView
+            android:id="@+id/txtSurname31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_vertical"
+            android:text="@string/Name"
+            android:textColor="#166134"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/SetPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#166134"
+            android:gravity="center"
+            android:shadowColor="#101010"
+            android:text="@string/setPayment"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="88dp" />
+
+        <Button
+            android:id="@+id/SetHolidays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#166134"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:shadowColor="#101010"
+            android:text="@string/setHolidays"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="88dp" />
+
+        <TextView
+            android:id="@+id/txtEmail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/IDinmanager"
+            android:textColor="#166134"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/type"
+            android:textColor="#166134"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idget2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="25dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nameget2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lastNameget2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="75dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/userTypeget2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="100dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

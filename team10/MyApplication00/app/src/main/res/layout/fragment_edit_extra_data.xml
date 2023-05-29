@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ByAdmin.EditExtraData">
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/editUsercare"
+        android:textColor="#1258AC"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nameofCaretaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:text="t"
+        android:textColor="#1258AC"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nameofCaretaker2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:gravity="center|left"
+        android:text="@string/holidays"
+        android:textColor="#074085"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="1"
+            android:textColor="#005AB2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date1"
+            android:layout_width="242dp"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/cal1"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/ic_baseline_calendar_today_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="2"
+            android:textColor="#005AB2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="242dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/cal2"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/ic_baseline_calendar_today_24" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="3"
+            android:textColor="#005AB2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date3"
+            android:layout_width="242dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/cal3"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/ic_baseline_calendar_today_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="4"
+            android:textColor="#005AB2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date4"
+            android:layout_width="242dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/cal4"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/ic_baseline_calendar_today_24" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nameofCaretaker3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|left"
+        android:text="@string/Payment1"
+        android:textColor="#074085"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/curmonth"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/numofmonthPa"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="4"
+            android:textColor="#124FC8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/curpay"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/setprice"
+            android:layout_width="242dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnForCaretaker"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#1258AC"
+        android:text="@string/save"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="10dp"
+        android:background="#1258AC" />
+
+</LinearLayout>

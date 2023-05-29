@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95B3CA"
+    android:orientation="vertical"
+    tools:context=".ByElderly.Elderly">
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="10dp"
+        android:background="#005679"
+        android:foregroundGravity="top" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="top"
+        android:background="#00587C"
+        android:backgroundTint="#00587C" />
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#005679" />
+
+    <Button
+        android:id="@+id/healthServices"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="100dp"
+        android:background="#0A6B93"
+        android:text="@string/health_services"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/monitor"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="10dp"
+        android:background="#0A6B93"
+        android:text="@string/monitoring"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/order1"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="10dp"
+        android:background="#0A6B93"
+        android:text="@string/orderMedication"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="#005679" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        android:background="#005476" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#005679" />
+
+</LinearLayout>
+

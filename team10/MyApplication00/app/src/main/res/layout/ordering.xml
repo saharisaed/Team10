@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_ordering"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_marginTop="15dp"
+    card_view:cardBackgroundColor="#F8C7F9"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="30dp">
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#F0C9F6"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/nameOfMed2"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:background="#C06ACF"
+            android:gravity="center|center_vertical"
+            android:text="@string/caretakersDetails"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/currentAmount"
+            android:textColor="#0C0B0B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/inputAmount2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/clickToOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#C15959"
+            android:gravity="center"
+            android:text="Order"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
